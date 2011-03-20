@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="app_name">Humidity tracker</string>
+
+<string name="takereading">Take new reading</string>
+
+<string name="temp">Temperature</string>
+<string name="degreesc">°C</string>
+<string name="humidity">Relative humidity</string>
+<string name="percent">%</string>
+<string name="plusminus">±</string>
+
+<string name="ok">OK</string>
+
+<string name="lastreading">Last reading</string>
+<string name="dewpoint">Dew point</string>
+<string name="density">Water density</string>
+<string name="gm3">g/m³</string>
+<string name="save">Save</string>
+
+<string name="savereading">Save reading</string>
+
+<string name="showrecords">Show records</string>
+
+<string name="clear">Clear</string>
+<string name="name">Name data</string>
+<string name="delete">Delete data</string>
+
+<string name="estLabel">Measured ≈</string>
+
+<string name="nameInfo">Change the name of this data bank (≤ 6 letters)</string>
+
+<string name="deletelast">Last reading</string>
+<string name="deletebefore1d">All older than 1 day</string>
+<string name="deletebefore7d">All older than 7 days</string>
+<string name="deletebefore30d">All older than 30 days</string>
+<string name="deleteall">All readings</string>
+
+<string name="confirmdelete">Are you sure you want to delete the above data from this bank?</string>
+<string name="cancel">Cancel</string>
+
+<string name="copyright">© 2011 Samuel Marshall / leafdigital</string>
+</resources>

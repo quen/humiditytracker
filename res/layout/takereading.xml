@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp"
+    >
+
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+	android:text="@string/temp"
+	style="@style/BigFont"
+	/>
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+	>
+
+	<EditText
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+		android:id="@+id/temp"
+		android:inputType="numberDecimal"
+		android:width="100dp"
+		/>
+
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+		android:paddingLeft="5dp"
+		android:text="@string/degreesc"
+		style="@style/BigFont"
+		/>
+
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+		android:paddingLeft="10dp"
+		android:text="@string/plusminus"
+		style="@style/BigFont"
+		/>
+
+	<EditText
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+		android:id="@+id/temperror"
+		android:inputType="numberDecimal"
+		android:width="60dp"
+		/>
+		
+</LinearLayout>
+
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+	android:text="@string/humidity"
+	android:paddingTop="15dp"
+	style="@style/BigFont"
+	/>
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+	android:paddingBottom="30dp"
+	>
+
+	<EditText
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+		android:id="@+id/humidity"
+		android:inputType="numberDecimal"
+		android:width="100dp"
+		/>
+
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+		android:paddingLeft="5dp"
+		android:text="@string/percent"
+		style="@style/BigFont"
+		/>
+
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+		android:paddingLeft="10dp"
+		android:text="@string/plusminus"
+		style="@style/BigFont"
+		/>
+
+	<EditText
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+		android:id="@+id/humidityerror"
+		android:inputType="numberDecimal"
+		android:width="60dp"
+		/>
+
+</LinearLayout>
+
+<Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+	android:id="@+id/ok"
+	android:text="@string/ok"
+	android:enabled="false"
+	style="@style/BigFont"
+	/>
+
+</LinearLayout>

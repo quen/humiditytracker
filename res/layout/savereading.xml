@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp"
+    >
+<TableLayout 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:layout_weight="1"
+	android:stretchColumns="0,1"
+	>
+	<TableRow>
+		<Button 
+			android:id="@+id/stored1" 
+			android:textColor="@color/stored1"
+			style="@style/StoredButton"
+			/>
+		<Button 
+			android:id="@+id/stored2" 
+			android:textColor="@color/stored2"
+			style="@style/StoredButton"
+			/>
+	</TableRow>
+	<TableRow>
+		<Button 
+			android:id="@+id/stored3" 
+			android:textColor="@color/stored3"
+			style="@style/StoredButton"
+			/>
+		<Button 
+			android:id="@+id/stored4" 
+			android:textColor="@color/stored4"
+			style="@style/StoredButton"
+			/>
+	</TableRow>
+	<TableRow>
+		<Button 
+			android:id="@+id/stored5" 
+			android:textColor="@color/stored5"
+			style="@style/StoredButton"
+			/>
+		<Button 
+			android:id="@+id/stored6" 
+			android:textColor="@color/stored6"
+			style="@style/StoredButton"
+			/>
+	</TableRow>
+</TableLayout>
+
+
+</LinearLayout>

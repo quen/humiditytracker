@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:padding="10dp"
+	>
+	
+<ImageView
+	android:id="@+id/icon"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginRight="10dp"
+	android:layout_weight="0"
+	/>
+	
+<LinearLayout
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_weight="1"
+	>
+	
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		>
+		<TextView 
+			style="@style/PointViewType"
+			android:text="@string/estLabel"
+			/>
+		<TextView
+			android:id="@+id/estValue"
+			style="@style/PointViewValue"
+			/>
+		<TextView 
+			android:id="@+id/unit2"
+			style="@style/PointViewUnit"
+			/>
+	</LinearLayout>
+	
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingBottom="10dp"
+		>
+		<TextView
+			android:id="@+id/minValue"
+			style="@style/PointViewValue"
+			android:paddingLeft="0dp"
+			/>
+		<TextView 
+			android:id="@+id/unit1"
+			style="@style/PointViewUnit"
+			/>
+		<TextView
+			style="@style/PointViewDash"
+			/>
+		<TextView
+			android:id="@+id/maxValue"
+			style="@style/PointViewValue"
+			/>
+		<TextView 
+			android:id="@+id/unit3"
+			style="@style/PointViewUnit"
+			/>
+	</LinearLayout>
+	
+	<Button
+		android:id="@+id/ok"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/ok"
+		/>
+	
+</LinearLayout>
+
+</LinearLayout>

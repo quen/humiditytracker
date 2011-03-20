@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+<item android:checkable="true" android:icon="@drawable/menu_temp" android:id="@+id/temp" android:title="@string/temp"/>
+<item android:checkable="true" android:icon="@drawable/menu_humidity" android:id="@+id/humidity" android:title="@string/humidity"/>
+<item android:checkable="true" android:icon="@drawable/menu_dewpoint" android:id="@+id/dewpoint" android:title="@string/dewpoint"/>
+<item android:checkable="true" android:icon="@drawable/menu_density" android:id="@+id/density" android:title="@string/density"/>
+</group>
+<item android:icon="@drawable/menu_name" android:id="@+id/name" android:title="@string/name"/>
+<item android:icon="@drawable/menu_delete" android:id="@+id/delete" android:title="@string/delete">
+	<menu>
+		<item android:id="@+id/deletelast" android:title="@string/deletelast"/>
+		<item android:id="@+id/deletebefore1d" android:title="@string/deletebefore1d"/>
+		<item android:id="@+id/deletebefore7d" android:title="@string/deletebefore7d"/>
+		<item android:id="@+id/deletebefore30d" android:title="@string/deletebefore30d"/>
+		<item android:id="@+id/deleteall" android:title="@string/deleteall"/>
+	</menu>
+</item>
+</menu>

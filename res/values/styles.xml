@@ -1,0 +1,87 @@
+<resources>
+
+<style name="BigFont">
+	<item name="android:textSize">20dp</item>
+</style>
+
+<style parent="@style/BigFont" name="StoredButton">
+	<item name="android:textStyle">bold</item>
+	<item name="android:paddingTop">15dp</item>
+	<item name="android:paddingBottom">15dp</item>
+</style>
+
+<style name="ShowTableRow">
+	<item name="android:paddingBottom">15dp</item>
+	<item name="android:gravity">right</item>
+	<item name="android:layout_width">fill_parent</item>
+	<item name="android:layout_height">wrap_content</item>
+</style>
+
+<style name="ShowTableRowLabel">
+	<item name="android:textSize">20dp</item>
+	<item name="android:layout_width">wrap_content</item>
+	<item name="android:layout_height">wrap_content</item>
+	<item name="android:layout_weight">1</item>	
+</style>
+
+<style name="ShowTableRowValue">
+	<item name="android:paddingLeft">10dp</item>
+	<item name="android:textSize">20dp</item>
+	<item name="android:textStyle">bold</item>
+	<item name="android:text">XX.X</item>
+	<item name="android:layout_width">wrap_content</item>
+	<item name="android:layout_height">wrap_content</item>
+	<item name="android:layout_weight">0</item>	
+</style>
+
+<style name="ShowTableRowValue2" parent="@style/ShowTableRowValue">
+	<item name="android:paddingLeft">5dp</item>
+</style>
+
+<style name="ShowTableRowTo">
+	<item name="android:paddingLeft">5dp</item>
+	<item name="android:textSize">20dp</item>
+	<item name="android:text">–</item>
+	<item name="android:layout_width">wrap_content</item>
+	<item name="android:layout_height">wrap_content</item>
+	<item name="android:layout_weight">0</item>	
+</style>
+
+<style name="ShowTableRowUnit">
+	<item name="android:paddingLeft">5dp</item>
+	<item name="android:textSize">20dp</item>
+	<item name="android:layout_width">wrap_content</item>
+	<item name="android:layout_height">wrap_content</item>
+	<item name="android:layout_weight">0</item>	
+</style>
+
+<style name="PointViewType">
+	<item name="android:layout_width">wrap_content</item>
+	<item name="android:layout_height">wrap_content</item>
+	<item name="android:textSize">20dp</item>
+</style>
+<style name="PointViewValue" parent="@style/PointViewType">
+	<item name="android:textStyle">bold</item>
+	<item name="android:paddingLeft">5dp</item>
+</style>
+<style name="PointViewUnit" parent="@style/PointViewType">
+	<item name="android:paddingLeft">5dp</item>
+</style>
+
+<style name="PointViewValueS" parent="@style/PointViewType">
+	<item name="android:textSize">16dp</item>
+	<item name="android:textStyle">bold</item>
+	<item name="android:paddingLeft">5dp</item>
+</style>
+<style name="PointViewUnitS" parent="@style/PointViewValueS">
+	<item name="android:textStyle">normal</item>
+	<item name="android:paddingLeft">5dp</item>
+</style>
+
+
+<style name="PointViewDash" parent="@style/PointViewUnitS">
+	<item name="android:text">–</item>
+	<item name="android:paddingLeft">5dp</item>
+</style>
+
+</resources>

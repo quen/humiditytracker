@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp"
+    >
+
+<LinearLayout
+    android:orientation="horizontal"
+    style="@style/ShowTableRow"
+	>
+	<TextView
+		android:text="@string/temp"
+		style="@style/ShowTableRowLabel"
+		/>
+	<TextView
+		android:id="@+id/showTempL"
+		style="@style/ShowTableRowValue"
+		/>
+	<TextView
+		style="@style/ShowTableRowTo"
+		/>
+	<TextView
+		android:id="@+id/showTempH"
+		style="@style/ShowTableRowValue2"
+		/>
+	<TextView
+		android:text="@string/degreesc"
+		style="@style/ShowTableRowUnit"
+		/>
+</LinearLayout>
+
+<LinearLayout
+    android:orientation="horizontal"
+    style="@style/ShowTableRow"
+	>
+	<TextView
+		android:text="@string/humidity"
+		style="@style/ShowTableRowLabel"
+		/>
+	<TextView
+		android:id="@+id/showHumidityL"
+		style="@style/ShowTableRowValue"
+		/>
+	<TextView
+		style="@style/ShowTableRowTo"
+		/>
+	<TextView
+		android:id="@+id/showHumidityH"
+		style="@style/ShowTableRowValue2"
+		/>
+	<TextView
+		android:text="@string/percent"
+		style="@style/ShowTableRowUnit"
+		/>
+</LinearLayout>
+
+<LinearLayout
+    android:orientation="horizontal"
+    style="@style/ShowTableRow"
+	>
+	<TextView
+		android:text="@string/dewpoint"
+		style="@style/ShowTableRowLabel"
+		/>
+	<TextView
+		android:id="@+id/showDewpointL"
+		style="@style/ShowTableRowValue"
+		/>
+	<TextView
+		style="@style/ShowTableRowTo"
+		/>
+	<TextView
+		android:id="@+id/showDewpointH"
+		style="@style/ShowTableRowValue2"
+		/>
+	<TextView
+		android:text="@string/degreesc"
+		style="@style/ShowTableRowUnit"
+		/>
+</LinearLayout>
+
+<LinearLayout
+    android:orientation="horizontal"
+    style="@style/ShowTableRow"
+	>
+	<TextView
+		android:text="@string/density"
+		style="@style/ShowTableRowLabel"
+		/>
+	<TextView
+		android:id="@+id/showDensityL"
+		style="@style/ShowTableRowValue"
+		/>
+	<TextView
+		style="@style/ShowTableRowTo"
+		/>
+	<TextView
+		android:id="@+id/showDensityH"
+		style="@style/ShowTableRowValue2"
+		/>
+	<TextView
+		android:text="@string/gm3"
+		style="@style/ShowTableRowUnit"
+		/>
+</LinearLayout>
+
+<LinearLayout
+	android:paddingTop="15dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+	>
+	<Button
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+		android:id="@+id/ok"
+		android:text="@string/ok"
+		style="@style/BigFont"
+		android:layout_weight="1"
+		/>
+	<Button
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+		android:id="@+id/save"
+		android:text="@string/save"
+		style="@style/BigFont"
+		android:layout_weight="1"
+		/>
+</LinearLayout>
+
+
+</LinearLayout>
